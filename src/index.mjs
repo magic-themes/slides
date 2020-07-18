@@ -78,23 +78,16 @@ export default (v = {}) => {
       position: 'fixed',
       left: '1em',
       top: 'auto',
-      bottom: '4em',
-      height: '1.5em',
-      width: '1.5em',
+      bottom: '3.5em',
+      height: '1em',
+      width: '1em',
     },
 
     '.NoSpy': {
       '.ShowHide': {
-        height: '1.5em',
-        width: '1.5em',
+        height: '1.2em',
+        width: '1.2em',
       },
-    },
-
-    '.BottomLink': {
-      position: 'fixed',
-      bottom: '1em',
-      right: '1em',
-      left: 'auto',
     },
   }
 }
