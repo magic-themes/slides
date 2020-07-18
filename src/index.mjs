@@ -55,6 +55,11 @@ export default (v = {}) => {
       transition: `color ${v.fadeDuration}, background-color ${v.fadeDuration}`,
       padding: '0 0 3em',
 
+      'svg.icon': {
+        height: '1em',
+        width: '1em',
+      },
+
       '&.light': {
         backgroundColor: v.background.light,
         color: v.text.light,
@@ -75,22 +80,18 @@ export default (v = {}) => {
     },
 
     '.LightSwitch': {
-      position: 'fixed',
-      left: '1em',
-      top: 'auto',
-      bottom: '3.5em',
-    },
-
-    '.NoSpy, .Gdpr': {
-      '.ShowHide': {
-        height: '1.2em',
-        width: '1.2em',
+      '.icon': {
+        position: 'fixed',
+        left: '0.5em',
+        top: 'auto',
+        bottom: '2.5em',
       },
     },
 
-    '.icon': {
-      height: '1em',
-      width: '1em',
-    },
+    '.NoSpy': {
+      '.ShowHide': {
+        left: '0.5em',
+      }
+    }
   }
 }
