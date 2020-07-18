@@ -79,15 +79,18 @@ export default (v = {}) => {
       left: '1em',
       top: 'auto',
       bottom: '3.5em',
-      height: '1em',
-      width: '1em',
     },
 
-    '.NoSpy': {
+    '.NoSpy, .Gdpr': {
       '.ShowHide': {
         height: '1.2em',
         width: '1.2em',
       },
+    },
+
+    '.icon': {
+      height: '1em',
+      width: '1em',
     },
   }
 }
