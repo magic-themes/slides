@@ -57,5 +57,8 @@ create /assets/themes/slides/index.mjs, any css there will overwrite the theme c
 ##### 0.0.1
 first release
 
-##### 0.0.2 - unreleased
+##### 0.0.2
+bump required node version to 14.15.4
+
+##### 0.0.3 - unreleased
 ...
