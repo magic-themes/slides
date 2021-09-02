@@ -91,7 +91,7 @@ export default (v = {}) => {
     '.NoSpy': {
       '.ShowHide': {
         left: '0.5em',
-      }
-    }
+      },
+    },
   }
 }
